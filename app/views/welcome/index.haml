@@ -1,5 +1,29 @@
 #banner
   .banner_content
-    %h1 Anote
-    %p Tu libreta online
+    %h1 E-note
+    %p La mejor libreta online
     %button= link_to "Registrarse", new_user_registration_path
+#testimonial
+  .wrapper
+    %p.quote "Semiotics cornhole flannel brooklyn, distillery tousled disrupt fap listicle knausgaard."
+    %p.name - Pepito perez del fulano
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Facil.
+        %p Microdosing letterpress affogato chartreuse 8-bit, mixtape cray lomo.
+      .callout
+        %h2 Rapido.
+        %p Microdosing letterpress affogato chartreuse 8-bit, mixtape cray lomo.
+      .callout
+        %h2 Gratis.
+        %p Microdosing letterpress affogato chartreuse 8-bit, mixtape cray lomo.
+#bottom_cta
+  .wrapper
+    %h2 Es gratis!!
+    %p Registrate antes que empezemos a cobrar.
+    %button= link_to "Click sobre mi", new_user_registration_path
+
+%footer
+  %p &copy; Kevin Rodríguez
