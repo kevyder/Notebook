@@ -2,20 +2,14 @@ $dark_gray: #2B2E2E;
 $light_gray: #C0C1C1;
 $green: #33CD99;
 
-@mixin bold_font {
-	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
 * {
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
 	padding-top: 4.5rem;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -100,7 +94,6 @@ footer {
 	padding: 2rem 0;
 	color: white;
 	text-align: center;
-	@include bold_font;
 	p {
 		margin: 0;
 		font-size: .85rem;
@@ -120,4 +113,9 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 textarea {
 	min-height: 200px;
+}
+
+#logo{
+	font-size: 32px;
+	color: #fff;
 }
