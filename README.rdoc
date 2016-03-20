@@ -1,28 +1,19 @@
-== README
+== E-Note por Kevin Rodríguez
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2016/03/18
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Se utilizó:
+
+* Ruby on Rails '4.1.8'
+
+* PostgreSQL o SQLite3
+
+* Devise '3.5.6'
+
+* Simple_form '3.2.1'
+
+* HAML  '4.0.7'
+
+Link del proyecto:
+https://goo.gl/mTsS53
